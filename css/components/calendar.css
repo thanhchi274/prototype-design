@@ -1,0 +1,104 @@
+.calendar-container table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.calendar-container td {
+  padding: 0;
+}
+
+.calendar-container {
+  position: relative;
+}
+
+.calendar-container header {
+  border-radius: 3em 3em 0 0;
+  background: #FFD369;
+  color: #fff;
+  padding: 0.5em 2em;
+}
+
+.day {
+  font-size: 3em;
+  font-weight: 900;
+  line-height: 1em;
+}
+
+.month {
+  font-size: 0.5em;
+  line-height: 1em;
+  text-transform: lowercase;
+}
+
+.calendar {
+  width: 100%;
+  background: #fff;
+  border-radius: 0 0 1.5em 1.5em;
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 3px 1px #fff;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 3px 1px #fff;
+  color: #555;
+  padding: 2.15em;
+}
+
+.calendar thead {
+  color: #e66b6b;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.calendar td {
+  padding: 0.4em 0.4em;
+  text-align: center;
+}
+.calendar tbody td {
+  color: #cacaca;
+}
+.calendar tbody td:hover {
+  background: #cacaca;
+  border-radius:25%;
+  color: #fff;
+}
+
+.current-day {
+  color: #e42626!important;
+  font-weight: 700;
+}
+
+.prev-month,
+.next-month {
+  color: #949494!important;
+}
+
+.ring-left,
+.ring-right {
+  position: absolute;
+  top: 16%;
+}
+
+.ring-left {
+  left: 2em;
+}
+.ring-right {
+  right: 2em;
+}
+
+.ring-left:before,
+.ring-left:after,
+.ring-right:before,
+.ring-right:after {
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, 0.3),
+    0 -1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 1px rgba(0, 0, 0, 0.3), 0 -1px 1px rgba(0, 0, 0, 0.2);
+  content: "";
+  display: inline-block;
+  margin: 8px;
+  height: 20px;
+  width: 4px;
+}
+@media only screen and (max-width: 1367px) {
+.calendar-container{
+          display:none;
+}
+}

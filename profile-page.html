@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyberLearn - Profile Page</title>
+    <meta name="theme-color" content="#e3c53d" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#23232e" media="(prefers-color-scheme: dark)" />
+    <meta name="description" content="Hệ thống học tập CyberLearn" />
+    <meta itemprop="name" content="CyberSoft Academy -Đào tạo Chuyên Gia Lập Trình" />
+    <meta itemprop="description" content="Đào tạo lập trình theo dự án thực tế, lập trình Front End, lập trình Back end, FrontEnd, BackEnd, Java Web chuyên sâu, ReactJS, Angular, NodeJS, Spring MVC
+  " />
+    <link rel="icon" href="/01-signup-max-op1-1@2x.png">
+    <link rel="apple-touch-icon" href="/01-signup-max-op1-1@2x.png">
+    <meta property="og:url" content="https://cybersoft.edu.vn" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title"
+        content="Chứng nhận đào tạo - CyberSoft Academy -Đào tạo Chuyên Gia Lập Trình" />
+    <meta property="og:description" content="Đào tạo lập trình theo dự án thực tế, lập trình Front End, lập trình Back end, FrontEnd, BackEnd, Java Web chuyên sâu, ReactJS, Angular, NodeJS, Spring MVC
+  " />
+    <meta property="og:image"
+        content="http://chungnhan.cybersoft.edu.vn/static/media/Empty-01.b9626e56.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title"
+        content="Chứng nhận đào tạo - CyberSoft Academy -Đào tạo Chuyên Gia Lập Trình" />
+    <meta name="twitter:description" content="Đào tạo lập trình theo dự án thực tế, lập trình Front End, lập trình Back end, FrontEnd, BackEnd, Java Web chuyên sâu, ReactJS, Angular, NodeJS, Spring MVC
+  " />
+    <meta name="twitter:image"
+        content="http://chungnhan.cybersoft.edu.vn/static/media/Empty-01.b9626e56.jpg" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="logo">
+                <a href="#" class="nav-link">
+                    <span class="link-text logo-text"><img class="img-fluid"
+                            src="./img/logo.png" /></span>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fad"
+                        data-icon="angle-double-right" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                        class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x">
+                        <g class="fa-group">
+                            <path fill="currentColor"
+                                d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z"
+                                class="fa-secondary"></path>
+                            <path fill="currentColor"
+                                d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z"
+                                class="fa-primary"></path>
+                        </g>
+                    </svg>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="./index.html" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                        <path fill-rule="evenodd"
+                            d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                    </svg>
+                    <span class="link-text">Dashboard</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                        <path
+                            d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                    </svg>
+                    <span class="link-text">Courses</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        fill="currentColor" class="bi bi-bar-chart" viewBox="0 0 16 16">
+                        <path
+                            d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z" />
+                    </svg>
+                    <span class="link-text">Process</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="./profile-page.html" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd"
+                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                    </svg>
+                    <span class="link-text">Profile</span>
+                </a>
+            </li>
+            <li class="nav-item" id="ads-image">
+            </li>
+            <li class="nav-item">
+                <a href="./profile-page.html" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z" />
+                        <path fill-rule="evenodd"
+                            d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z" />
+                    </svg>
+                    <span class="link-text">Log Out</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="content">
+            <div class="profile-header d-flex justify-content-end align-text-center">
+                <div class="nofiticationText d-flex align-items-center">
+                    <h3>Bật thông báo để nhận ưu đãi từ Cybersoft!</h3>
+                </div>
+                <div class="notification" id="receive-notification">
+                    <a href="#" class="nav-link">
+                        <svg aria-hidden="true" focusable="false"
+                            xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="container-fluid px-0 mt-4 mx-auto row">
+                <div class="col-lg-5 col-xs-12">
+                    <div class="card card-2">
+                        <div class="col-lg-12 col-sm-12 col-xs-12">
+                            <div class="page-content page-container" id="page-content">
+                                <div class="col-xl-12 col-md-12 row">
+                                    <div class="col-sm-12 col-xl-4 user-profile">
+                                        <div class="card-block text-center">
+                                            <div class="m-b-25"> <img
+                                                    src="https://img.icons8.com/bubbles/128/000000/user.png"
+                                                    class="img-radius" alt="User-Profile-Image">
+                                            </div>
+                                            <p><b>Phạm Thành Chí</b></p>
+                                            <p>Học viên</p> <i
+                                                class=" mdi mdi-square-edit-outline feather icon-edit m-t-10 f-16"></i>
+                                            <button type="button" class="btn btn-primary">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                    height="16" fill="currentColor"
+                                                    class="bi bi-facebook" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
+                                                    </path>
+                                                </svg>
+                                                Connected
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-8 col-xl-8">
+                                        <div class="card-block">
+                                            <div class="row">
+                                                <div
+                                                    class="col-sm-6 col-xl-12 d-flex justify-content-between">
+                                                    <p><b>Ngày sinh</b></p>
+                                                    </p>
+                                                    <h6 class="text-muted ">27/04/2000</h6>
+                                                </div>
+                                                <div
+                                                    class="col-sm-6 col-xl-12 d-flex justify-content-between">
+                                                    <p><b>Email</b></p>
+                                                    </p>
+                                                    <h6 class="text-muted ">anarapham274@gmail.com
+                                                    </h6>
+                                                </div>
+                                                <div
+                                                    class="col-sm-6 col-xl-12 d-flex justify-content-between">
+                                                    <p><b>Phone</b></p>
+                                                    </p>
+                                                    <h6 class="text-muted ">0901208206</h6>
+                                                </div>
+                                                <div
+                                                    class="col-sm-6 col-xl-12 d-flex justify-content-between">
+                                                    <p><b>CMND/CCCD</b></p>
+                                                    </p>
+                                                    <h6 class="text-muted ">0901208206</h6>
+                                                </div>
+                                                <div
+                                                    class="col-sm-6 col-xl-12 d-flex justify-content-between">
+                                                    <p><b>Học/Làm việc tại:</b></p>
+                                                    </p>
+                                                    <h6 class="text-muted ">TP.HCM</h6>
+                                                </div>
+                                                <div
+                                                    class="col-sm-6 col-xl-12 d-flex justify-content-between">
+                                                    <p><b>Mức lương mong muốn</b></p>
+                                                    </p>
+                                                    <h6 class="text-muted ">1000000</h6>
+                                                </div>
+                                            </div>
+                                            <ul class="social-link list-unstyled m-t-40 m-b-10">
+                                                <li><a href="#!" data-toggle="tooltip"
+                                                        data-placement="bottom" title=""
+                                                        data-original-title="facebook"
+                                                        data-abc="true"><i
+                                                            class="mdi mdi-facebook feather icon-facebook facebook"
+                                                            aria-hidden="true"></i></a></li>
+                                                <li><a href="#!" data-toggle="tooltip"
+                                                        data-placement="bottom" title=""
+                                                        data-original-title="twitter"
+                                                        data-abc="true"><i
+                                                            class="mdi mdi-twitter feather icon-twitter twitter"
+                                                            aria-hidden="true"></i></a></li>
+                                                <li><a href="#!" data-toggle="tooltip"
+                                                        data-placement="bottom" title=""
+                                                        data-original-title="instagram"
+                                                        data-abc="true"><i
+                                                            class="mdi mdi-instagram feather icon-instagram instagram"
+                                                            aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-7 col-xs-12">
+                    <div class="container recent-card">
+                        <h3 class="mb-2"><b>Tương tác gần đây</b></h3>
+                        <div class="card my-2">
+                            <div class="card-body d-flex justify-content-between">
+                                <div class="card-body-content">
+                                    <h5 class="card-title">Khóa 1</h5>
+                                    <p class="card-text">Tư duy lập trình & nền tảng</p>
+                                </div>
+                                <div class="card-body-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                                        fill="currentColor" class="bi bi-arrow-right-circle-fill"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card my-2">
+                            <div class="card-body d-flex justify-content-between">
+                                <div class="card-body-content">
+                                    <h5 class="card-title">Khóa 2</h5>
+                                    <p class="card-text">Lập trình xử lý Mảng căn bản chuyên</p>
+                                </div>
+                                <div class="card-body-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                                        fill="currentColor" class="bi bi-arrow-right-circle-fill"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cmy-2">
+                            <div class="card-body d-flex justify-content-end">
+                                <div class="card-body-content mx-2 d-flex align-items-center">
+                                    <h5 class="card-title"><a href="./history-page.html">Xem tất cả</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container mt-3">
+                    <div class="card card-2">
+                        <p style="font-size:2rem"><b>Các khoá đã đăng kí</b></p>
+                        <div class="accordion container accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        Tư Duy 21
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <div class="card my-2">
+                                            <div class="card-body d-flex justify-content-between">
+                                                <div class="card-body-content">
+                                                    <h5 class="card-title">Khóa 1</h5>
+                                                    <p class="card-text">Lập trình xử lý Mảng căn
+                                                        bản chuyên</p>
+                                                </div>
+                                                <div class="card-body-button">
+                                                    <svg viewBox="0 0 36 36"
+                                                        class="circular-chart orange">
+                                                        <path class="circle-bg" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <path class="circle"
+                                                            stroke-dasharray="100, 100" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <text x="18" y="20.35"
+                                                            class="percentage">100%</text>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card my-2">
+                                            <div class="card-body d-flex justify-content-between">
+                                                <div class="card-body-content">
+                                                    <h5 class="card-title">Khóa 2</h5>
+                                                    <p class="card-text">Lập trình xử lý Mảng căn
+                                                        bản chuyên</p>
+                                                </div>
+                                                <div class="card-body-button">
+                                                    <svg viewBox="0 0 36 36"
+                                                        class="circular-chart orange">
+                                                        <path class="circle-bg" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <path class="circle"
+                                                            stroke-dasharray="100, 100" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <text x="18" y="20.35"
+                                                            class="percentage">100%</text>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card my-2">
+                                            <div class="card-body d-flex justify-content-between">
+                                                <div class="card-body-content">
+                                                    <h5 class="card-title">Khóa 3</h5>
+                                                    <p class="card-text">Lập trình xử lý Mảng căn
+                                                        bản chuyên</p>
+                                                </div>
+                                                <div class="card-body-button">
+                                                    <svg viewBox="0 0 36 36"
+                                                        class="circular-chart orange">
+                                                        <path class="circle-bg" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <path class="circle"
+                                                            stroke-dasharray="90, 100" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <text x="18" y="20.35"
+                                                            class="percentage">90%</text>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card my-2">
+                                            <div class="card-body d-flex justify-content-between">
+                                                <div class="card-body-content">
+                                                    <h5 class="card-title">Khóa 4</h5>
+                                                    <p class="card-text">Lập trình xử lý Mảng căn
+                                                        bản chuyên</p>
+                                                </div>
+                                                <div class="card-body-button">
+                                                    <svg viewBox="0 0 36 36"
+                                                        class="circular-chart orange">
+                                                        <path class="circle-bg" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <path class="circle"
+                                                            stroke-dasharray="0, 100" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <text x="18" y="20.35"
+                                                            class="percentage">0%</text>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        Front End 33
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <div class="card my-2">
+                                            <div class="card-body d-flex justify-content-between">
+                                                <div class="card-body-content">
+                                                    <h5 class="card-title">Khóa 1</h5>
+                                                    <p class="card-text">Lập trình xử lý Mảng căn
+                                                        bản chuyên</p>
+                                                </div>
+                                                <div class="card-body-button">
+                                                    <svg viewBox="0 0 36 36"
+                                                        class="circular-chart orange">
+                                                        <path class="circle-bg" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <path class="circle"
+                                                            stroke-dasharray="100, 100" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <text x="18" y="20.35"
+                                                            class="percentage">100%</text>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card my-2">
+                                            <div class="card-body d-flex justify-content-between">
+                                                <div class="card-body-content">
+                                                    <h5 class="card-title">Khóa 2</h5>
+                                                    <p class="card-text">Lập trình xử lý Mảng căn
+                                                        bản chuyên</p>
+                                                </div>
+                                                <div class="card-body-button">
+                                                    <svg viewBox="0 0 36 36"
+                                                        class="circular-chart orange">
+                                                        <path class="circle-bg" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <path class="circle"
+                                                            stroke-dasharray="100, 100" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <text x="18" y="20.35"
+                                                            class="percentage">100%</text>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card my-2">
+                                            <div class="card-body d-flex justify-content-between">
+                                                <div class="card-body-content">
+                                                    <h5 class="card-title">Khóa 3</h5>
+                                                    <p class="card-text">Lập trình xử lý Mảng căn
+                                                        bản chuyên</p>
+                                                </div>
+                                                <div class="card-body-button">
+                                                    <svg viewBox="0 0 36 36"
+                                                        class="circular-chart orange">
+                                                        <path class="circle-bg" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <path class="circle"
+                                                            stroke-dasharray="90, 100" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <text x="18" y="20.35"
+                                                            class="percentage">90%</text>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card my-2">
+                                            <div class="card-body d-flex justify-content-between">
+                                                <div class="card-body-content">
+                                                    <h5 class="card-title">Khóa 4</h5>
+                                                    <p class="card-text">Lập trình xử lý Mảng căn
+                                                        bản chuyên</p>
+                                                </div>
+                                                <div class="card-body-button">
+                                                    <svg viewBox="0 0 36 36"
+                                                        class="circular-chart orange">
+                                                        <path class="circle-bg" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <path class="circle"
+                                                            stroke-dasharray="0, 100" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <text x="18" y="20.35"
+                                                            class="percentage">0%</text>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        Fullstack 09
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <div class="card my-2">
+                                            <div class="card-body d-flex justify-content-between">
+                                                <div class="card-body-content">
+                                                    <h5 class="card-title">Khóa 1</h5>
+                                                    <p class="card-text">Lập trình xử lý Mảng căn
+                                                        bản chuyên</p>
+                                                </div>
+                                                <div class="card-body-button">
+                                                    <svg viewBox="0 0 36 36"
+                                                        class="circular-chart orange">
+                                                        <path class="circle-bg" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <path class="circle"
+                                                            stroke-dasharray="100, 100" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <text x="18" y="20.35"
+                                                            class="percentage">100%</text>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card my-2">
+                                            <div class="card-body d-flex justify-content-between">
+                                                <div class="card-body-content">
+                                                    <h5 class="card-title">Khóa 2</h5>
+                                                    <p class="card-text">Lập trình xử lý Mảng căn
+                                                        bản chuyên</p>
+                                                </div>
+                                                <div class="card-body-button">
+                                                    <svg viewBox="0 0 36 36"
+                                                        class="circular-chart orange">
+                                                        <path class="circle-bg" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <path class="circle"
+                                                            stroke-dasharray="100, 100" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <text x="18" y="20.35"
+                                                            class="percentage">100%</text>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card my-2">
+                                            <div class="card-body d-flex justify-content-between">
+                                                <div class="card-body-content">
+                                                    <h5 class="card-title">Khóa 3</h5>
+                                                    <p class="card-text">Lập trình xử lý Mảng căn
+                                                        bản chuyên</p>
+                                                </div>
+                                                <div class="card-body-button">
+                                                    <svg viewBox="0 0 36 36"
+                                                        class="circular-chart orange">
+                                                        <path class="circle-bg" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <path class="circle"
+                                                            stroke-dasharray="90, 100" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <text x="18" y="20.35"
+                                                            class="percentage">90%</text>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card my-2">
+                                            <div class="card-body d-flex justify-content-between">
+                                                <div class="card-body-content">
+                                                    <h5 class="card-title">Khóa 4</h5>
+                                                    <p class="card-text">Lập trình xử lý Mảng căn
+                                                        bản chuyên</p>
+                                                </div>
+                                                <div class="card-body-button">
+                                                    <svg viewBox="0 0 36 36"
+                                                        class="circular-chart orange">
+                                                        <path class="circle-bg" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <path class="circle"
+                                                            stroke-dasharray="0, 100" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <text x="18" y="20.35"
+                                                            class="percentage">0%</text>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <footer>
+            <!-- Copyrights -->
+            <div class="py-4">
+                <div class="container text-center">
+                    <p class="text-muted mb-0 py-2">© 2021 CyberLearn All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>

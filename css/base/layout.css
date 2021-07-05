@@ -1,0 +1,28 @@
+body {
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #e3c53d;
+}
+
+main {
+  margin-left: 5rem;
+  padding: 2rem;
+}
+main .content {
+  border-radius: 35px;
+  padding:20px;
+  box-shadow: 0 8px 32px 0 rgba(34, 40, 49,0.37);
+}

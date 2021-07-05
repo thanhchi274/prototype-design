@@ -1,0 +1,34 @@
+.dark {
+  --text-primary: #b6b6b6;
+  --text-secondary: rgb(236, 236, 236);
+  --bg-primary: #222831;
+  --bg-secondary: #393E46;
+  background-color: #222831;
+  color: #fff;
+  transition: all 150ms linear;
+}
+.dark main .content {
+  background-color: #393E46;
+}
+.dark .card {
+  background-color: #ffffff;
+  color: #393E46;
+}
+.dark #darkIcon {
+  display: block;
+}
+.dark .apexcharts-tooltip {
+  color: #1f1f1f;
+}
+.dark .carousel .card-carousel:hover {
+  box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur( 8.5px );
+  -webkit-backdrop-filter: blur( 8.5px );
+}
+.dark .accordion-body .card{
+  background-color: #393E46;
+  color: #fff;
+}
+.dark .accordion-body .percentage {
+  fill: #fff;
+}

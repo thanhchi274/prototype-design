@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+          font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+}
+:root {
+          font-size: 16px;
+          font-family: 'Open Sans';
+          --text-primary: #b6b6b6;
+          --text-secondary: #ececec;
+          --bg-primary: #23232e;
+          --bg-secondary: #141418;
+          --transition-speed: 600ms;
+        }
+.text-welcomeUser{
+  padding: 1.5rem 0;
+  font-size:2.2rem;
+  margin-left:1.5rem;
+  font-weight: 900;
+}

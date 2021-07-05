@@ -1,0 +1,8 @@
+.accordion-button:not(.collapsed) {
+          background-color:#fff;
+}
+.accordion-flush .accordion-item .accordion-button{
+          font-weight: 900;
+          margin:0.55rem 0;
+          font-size:1.25rem;
+}

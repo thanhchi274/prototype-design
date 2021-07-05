@@ -1,0 +1,37 @@
+.light {
+  --text-primary: #222831;
+  --text-secondary: #393E46;
+  --bg-primary: #F9F7F7;
+  --bg-secondary: #e4e4e4;
+  background-color: #F9F7F7;
+  color: #222831;
+  transition: all 150ms linear;
+}
+.light .wrapper h2{
+  color:#222831;
+}
+.light .card {
+  background-color: #393E46;
+  color: #fff;
+}
+.light #lightIcon {
+  display: block;
+}
+.light .calendar {
+  background: #393E46;
+}
+.light .apexcharts-tooltip {
+  color: #1f1f1f;
+}
+.light .recent-card .card-body-button svg:hover{
+  transition: all 100ms ease-in-out;
+  filter: invert(27%) sepia(73%) saturate(412%) hue-rotate(359deg) brightness(91%) contrast(97%);
+}
+.light .recent-card .card-title a{
+  text-decoration:none;
+  color:#393E46;
+}
+.light .accordion-body .card{
+  background-color: #ffffff;
+  color: #393E46;
+}
