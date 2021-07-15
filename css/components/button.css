@@ -1,6 +1,6 @@
 
 .btn {
-          border-radius: 35px;
+          border-radius: 25px;
 }
 .accordion-button:not(.collapsed) {
   background-color: #fff;
@@ -135,4 +135,21 @@ input::-webkit-calendar-picker-indicator {
 }
 .slick-next::before, .slick-prev::before {
  font-size:50px;
+}
+.btn-notification {
+  width:100%;
+}
+.toggle-off.btn {
+  display:flex;
+  align-items: center;
+  padding-left:1.3rem;
+}
+.toggle-on.btn {
+  display:flex;
+  align-items: center;
+  padding-left:0.8rem;
+}
+.accordion-button:focus {
+  border-color:transparent; 
+  box-shadow: none;
 }

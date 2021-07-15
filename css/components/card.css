@@ -36,70 +36,7 @@
   backdrop-filter: blur(8.5px);
   -webkit-backdrop-filter: blur(8.5px);
 }
-@media only screen and (max-width: 600px) {
-  .recent-card{
-    padding:0rem;
-  }
-  .carousel .card-carousel {
-    padding: 0.42rem;
-    border-radius: 30px;
-    height:270px;
-  }
-  .carousel .card-carousel .card-body {
-    padding: 0.7rem 0.25rem;
-    position: absolute!important;
-    bottom:10%;
-  }
-  .carousel .card-carousel .card-title {
-    font-size: 1.3rem;
-    font-weight: 900;
-  }
-  .carousel .card-carousel .text {
-    font-size: 0.75rem;
-  }
-  .carousel .card-carousel img {
-    border-radius: 30px 30px 5px 5px;
-    height: 15vh;
-  }
-  .carousel .card-carousel .progress {
-    border-radius: 30px;
-    position: relative!important;
-    top:100%;
-    bottom: 0;
-    width: 100%;
-    height:15px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .carousel .card-carousel {
-    padding: 0.42rem;
-    border-radius: 30px;
-    height:40vh;
-  }
-  .carousel .card-carousel .card-body {
-    padding: 0.7rem 0.25rem;
-    position: relative;
-  }
-  .carousel .card-carousel .card-title {
-    font-size: 1.3rem;
-    font-weight: 900;
-  }
-  .carousel .card-carousel .text {
-    font-size: 0.75rem;
-  }
-  .carousel .card-carousel img {
-    border-radius: 30px 30px 5px 5px;
-    height: 15vh;
-  }
-  .carousel .card-carousel .progress {
-    border-radius: 30px;
-    position: absolute;
-    top:100%;
-    bottom: 0;
-    width: 100%;
-    height:15px;
-  }
-}
+
 .recent-card {
   padding-right:0!important;
 }
@@ -273,6 +210,12 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 .locked-content {
   display:none!important;
 }
+.history-page .row .card .pagination .page-item:first-child .page-link{
+  border-radius: 30px 0 0 30px;
+}
+.history-page .row .card .pagination .page-item:last-child .page-link{
+  border-radius: 0px 30px 30px 0px;
+}
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -286,6 +229,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
 @media only screen and (min-width: 768px){
   .carousel .card-carousel {
     padding: 0.42rem;
@@ -306,12 +250,73 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     cursor: pointer;
     transition: 0.3s;
   }
+  .profile-page .page-container .row {
+    padding:0;
+    margin:0;
+  }
+  .profile-page .recent-card {
+    margin:0;
+    padding:0;
+  }
+  .profile-page .recent-card h3 {
+    margin:1vh 0;
+  }
+  .profile-page .registerClassCard {
+    margin-top:0!important;
+  }
+  .profile-page .registerClassCard .card {
+    padding:1rem;
+  }
 } 
+.profile-page .card .text-muted{
+  max-width:100%;
+}
 @media only screen and (max-width: 600px){
+  .home-page .col-xs-12{
+    padding:0;
+  }
+  .home-page .row .col-xs-12 {
+    padding:0rem;
+  }
+  .recent-card{
+    padding:0rem;
+  }
+  .carousel .card-carousel {
+    padding: 0.42rem;
+    border-radius: 30px;
+    height:270px;
+  }
+  .carousel .card-carousel .card-body {
+    padding: 0.7rem 0.25rem;
+
+    bottom:10%;
+  }
+  .carousel .card-carousel .card-title {
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+  .carousel .card-carousel .text {
+    font-size: 0.75rem;
+  }
+  .carousel .card-carousel img {
+    border-radius: 30px 30px 5px 5px;
+    height: 15vh;
+  }
+  .carousel .card-carousel .progress {
+    border-radius: 30px;
+    position: absolute!important;
+    top:90%;
+    bottom: 0;
+    width: 87%;
+    height:15px;
+  }
   .carousel .card-carousel {
     padding: 0.42rem;
     border-radius: 30px;
     height:50vh;
+  }
+  .process-page .tabcontent {
+    margin-top:3vh;
   }
   .process-page{
     padding:0.75rem!important;
@@ -353,11 +358,74 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     padding: 1rem;
   }
   .profile-page .card .text-muted{
-    max-width: 80%;
+    max-width:80%;
+  }
+  .profile-page .registerClassCard {
+    padding:0;
+  }
+  .profile-page .registerClassCard p:first-child {
+    font-size:1.5rem!important;
+  }
+  .profile-page .registerClassCard .card {
+    padding:0;
+  }
+  .profile-page .registerClassCard .accordion {
+    padding:0.5rem;
+  }
+  .profile-page .registerClassCard .accordion-body .card-body {
+    padding:1rem;
+  }
+  .history-page {
+    padding:0!important;
+  }
+  .history-page .user-welcome h1{
+    font-size:1.5rem;
+  }
+  .history-page .row .card {
+    padding:0.5rem;
+    margin-bottom:2vh;  
+  }
+  .history-page .row .card .col-xs-12{
+    margin:1vh 0;
+    justify-content:space-between;
+  }
+  .history-page .row .card .datepicker-toggle {
+    width: 100%;
+  }
+  .history-page .row .card .datepicker-input{
+    width: 100%;
+  }
+  .history-page .row .card .pagination{
+    justify-content: center!important;
   }
 }
-@media only screen and (max-width: 600px) {
-  .process-page .tabcontent {
-    margin-top:3vh;
+@media only screen and (min-width: 1024px) {
+  .carousel .card-carousel {
+    padding: 0.42rem;
+    border-radius: 30px;
+    height:30vh;
+  }
+  .carousel .card-carousel .card-body {
+    padding: 0.7rem 0.25rem;
+    position: relative;
+  }
+  .carousel .card-carousel .card-title {
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+  .carousel .card-carousel .text {
+    font-size: 0.75rem;
+  }
+  .carousel .card-carousel img {
+    border-radius: 30px 30px 5px 5px;
+    height: 15vh;
+  }
+  .carousel .card-carousel .progress {
+    border-radius: 30px;
+    position: absolute;
+    top:100%;
+    bottom: 0;
+    width: 100%;
+    height:15px;
   }
 }

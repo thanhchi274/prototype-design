@@ -14,6 +14,21 @@
   background-color: #ffffff;
   color: #393E46;
 }
+.dark .page-link {
+  border:none;
+  color: #ffffff;
+  padding:1rem;
+  background-color: #393E46;
+  border-top-left-radius:none;
+  border-bottom-left-radius:none;
+}
+.dark .page-link:focus{
+  color:#222831;
+  box-shadow: none;
+}
+.dark .page-link:hover{
+  color:#222831;
+}
 .dark #darkIcon {
   display: block;
 }

@@ -15,6 +15,20 @@
 .light .card h1{
   color: var(--white);
 }
+.light .page-link {
+  border:none;
+  color: #393E46;
+  padding:1rem;
+  border-top-left-radius:none;
+  border-bottom-left-radius:none;
+}
+.light .page-link:focus{
+  color:#222831;
+  box-shadow: none;
+}
+.light .page-link:hover{
+  color:#222831;
+}
 .light .wrapper h2 {
   color:var(--text-secondary)
 }
