@@ -5,17 +5,18 @@ body {
   padding: 0;
 }
 
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 0.25rem;
 }
 
-body::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: #1e1e24;
 }
 
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: #e3c53d;
 }
+
 
 main {
   margin-left: 5rem;
@@ -26,3 +27,26 @@ main .content {
   padding:20px;
   box-shadow: 0 8px 32px 0 rgba(34, 40, 49,0.37);
 }
+@media only screen and (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+  #welcome-logo{
+    margin-left:25%!important;
+  }
+  .slick-next, .slick-prev {
+    display:none!important;
+   }
+   .carousel{
+    width:100%!important;
+  }
+  footer{
+    margin-bottom:1rem;
+  }
+}
+@media only screen and (max-width: 768px){
+  #welcome-logo{
+    margin-left:35%!important;
+    width: 30%!important;
+  }
+} 

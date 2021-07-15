@@ -3,22 +3,36 @@
   --text-secondary: #393E46;
   --bg-primary: #F9F7F7;
   --bg-secondary: #e4e4e4;
-  background-color: #F9F7F7;
-  color: #222831;
+  --white:#fff;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
   transition: all 150ms linear;
 }
-.light .wrapper h2{
-  color:#222831;
-}
 .light .card {
-  background-color: #393E46;
-  color: #fff;
+  background-color: var(--text-secondary);
+  color: var(--white);
+}
+.light .card h1{
+  color: var(--white);
+}
+.light .wrapper h2 {
+  color:var(--text-secondary)
+}
+.light .history-table {
+  background-color: var(--text-secondary);
+  color: var(--white);
+}
+.light .history-table th {
+  color: var(--white);
+}
+.light .history-table td {
+  color: var(--white);
 }
 .light #lightIcon {
   display: block;
 }
 .light .calendar {
-  background: #393E46;
+  background: var(--text-secondary);
 }
 .light .apexcharts-tooltip {
   color: #1f1f1f;
@@ -29,9 +43,22 @@
 }
 .light .recent-card .card-title a{
   text-decoration:none;
-  color:#393E46;
+  color:var(--text-secondary);
 }
 .light .accordion-body .card{
-  background-color: #ffffff;
-  color: #393E46;
+  background-color: var(--white);
+  color: var(--text-secondary);
+}
+.light .process-page .tab button {
+  color:var(--white) !important;
+}
+.light .process-page .tab button:hover {
+  background-color: rgb(104, 104, 104);
+}
+.light .process-page .tab button.active {
+  background-color:  rgb(104, 104, 104);
+  border-radius: 25px;
+}
+.light .accordion .accordion-body .card h1{
+  color:var(--text-secondary);
 }

@@ -64,13 +64,12 @@
   transition: var(--transition-speed);
 }
 .svg-hand-shake{
-  background: url('/SVG/hello.svg') no-repeat;
+  background: url('/Assets/SVG/hello.svg') no-repeat;
   background-size: contain;
   margin-top: auto;
   height: 40px;
   width: 40px;
 }
-
 .logo {
   font-weight: bold;
   text-transform: uppercase;
@@ -103,7 +102,7 @@
 }
 #ads-image {
   display: none;
-  background: url("../../SVG/ads.svg") no-repeat;
+  background: url("/Assets/SVG/ads.svg") no-repeat;
   background-size: contain;
   margin-top: auto;
   height: 20%;
@@ -187,10 +186,6 @@
   padding-top: 20px;
   display:block;
   text-align:center;
-}
-h2{
-  font-family:sans-serif;
-  color:#fff;
 }
 .carousel{
   width:90%;

@@ -3,8 +3,8 @@
   --text-secondary: rgb(236, 236, 236);
   --bg-primary: #222831;
   --bg-secondary: #393E46;
-  background-color: #222831;
-  color: #fff;
+  background-color: #222831!important;
+  color: #fff!important;
   transition: all 150ms linear;
 }
 .dark main .content {

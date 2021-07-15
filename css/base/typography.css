@@ -1,19 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-*{
-          font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+* {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,Ubuntu;
 }
 :root {
-          font-size: 16px;
-          font-family: 'Open Sans';
-          --text-primary: #b6b6b6;
-          --text-secondary: #ececec;
-          --bg-primary: #23232e;
-          --bg-secondary: #141418;
-          --transition-speed: 600ms;
-        }
-.text-welcomeUser{
+  font-size: 16px;
+  font-family: "Open Sans";
+}
+h2{
+  font-family:sans-serif;
+  color:#fff;
+}
+.text-welcomeUser {
   padding: 1.5rem 0;
-  font-size:2.2rem;
-  margin-left:1.5rem;
+  font-size: 2.2rem;
+  margin-left: 1.5rem;
   font-weight: 900;
+}
+@media only screen and (max-width: 600px) {
+  .text-welcomeUser {
+    padding: 0.5rem 0;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    font-weight: 900;
+  }
 }
