@@ -1,8 +1,8 @@
 @import '../css//base/normalize.css';
 @import '../css//base/typography.css';
 @import '../css//base/layout.css';
-@import '../css/base/_darkmode.css';
-@import '../css/base/_lightmode.css';
+@import '../css/base/darkmode.css';
+@import '../css/base/lightmode.css';
 @import '../css/bootstrap/bootstrap.min.css';
 @import '../css/components/nav.css';
 @import '../css/components/card.css';
